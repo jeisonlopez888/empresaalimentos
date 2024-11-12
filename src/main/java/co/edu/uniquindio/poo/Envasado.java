@@ -1,6 +1,6 @@
 package co.edu.uniquindio.poo;
 
-class Envasado extends Producto {
+public class Envasado extends Producto {
 
     private String fechaEnvasado;
     private int pesoEnvase;

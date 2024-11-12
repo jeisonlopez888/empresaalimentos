@@ -1,6 +1,6 @@
 package co.edu.uniquindio.poo;
 
-class Perecedero extends Producto {
+public class Perecedero extends Producto {
     private String fechaVencimiento;
 
     public Perecedero(String codigo, String nombre, double precioCompra, Proveedor proveedor, String fechaVencimiento) {

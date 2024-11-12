@@ -1,6 +1,6 @@
 package co.edu.uniquindio.poo;
 
-class Refrigerado extends Producto {
+public class Refrigerado extends Producto implements Farmacia {
     private String codigoAprobacion;
     private int temperaturaRefrigeracion;
 
@@ -17,10 +17,16 @@ class Refrigerado extends Producto {
 
     @Override
     public double calcularImpuesto() {
-        return calcularPrecioVenta() * 0.05; // 
+        return calcularPrecioVenta() * 0.05; 
     }
 
     public void iniciarProcesoRefrigeracion() {
         System.out.println("Iniciando proceso de refrigeración para el producto refrigerado: " + nombre);
+    }
+
+    @Override
+    public void iniciarProcesoRefrigeracion(Refrigerado producto) {
+        System.out.println("Refrigeración del producto: " + nombre);
+    
     }
 }
