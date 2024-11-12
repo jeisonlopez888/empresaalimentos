@@ -1,6 +1,6 @@
 package co.edu.uniquindio.poo;
 
 public interface Farmacia {
-    public void iniciarProcesoRefrigeracion(Refrigerado producto);
-
+    
+    public void iniciarProcesoRefrigeracion();
 }

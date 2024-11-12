@@ -22,11 +22,7 @@ public class Refrigerado extends Producto implements Farmacia {
 
     public void iniciarProcesoRefrigeracion() {
         System.out.println("Iniciando proceso de refrigeración para el producto refrigerado: " + nombre);
-    }
-
-    @Override
-    public void iniciarProcesoRefrigeracion(Refrigerado producto) {
-        System.out.println("Refrigeración del producto: " + nombre);
+    
     
     }
 }

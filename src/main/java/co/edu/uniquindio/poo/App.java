@@ -20,7 +20,9 @@ package co.edu.uniquindio.poo;
             System.out.println("Producto 1 - Precio de Venta: " + producto1.calcularPrecioVenta() + ", Impuesto: " + producto1.calcularImpuesto());
             System.out.println("Producto 2 - Precio de Venta: " + producto2.calcularPrecioVenta() + ", Impuesto: " + producto2.calcularImpuesto());
             System.out.println("Producto 3 - Precio de Venta: " + producto3.calcularPrecioVenta() + ", Impuesto: " + producto3.calcularImpuesto());
-            refrigerado.iniciarProcesoRefrigeracion(producto2);
+            producto2.iniciarProcesoRefrigeracion();
+
             
         }
+            
     }
