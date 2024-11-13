@@ -14,4 +14,9 @@ public class Perecedero extends Producto {
     public double calcularImpuesto() {
         return calcularPrecioVenta() * 0.08;
     }
+    @Override
+    public String toString() {
+        return "\n Producto perecedero \n codigo = " + codigo + ", \n fechaVencimiento = " + fechaVencimiento + ", \n nombre = " + nombre
+                + ", \n precioCompra = " + precioCompra + ", \n proveedor = " + proveedor.getNombre() + "";
+    }
 }

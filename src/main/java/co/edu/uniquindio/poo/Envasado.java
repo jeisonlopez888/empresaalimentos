@@ -22,4 +22,10 @@ public class Envasado extends Producto {
     public double calcularImpuesto() {
         return calcularPrecioVenta() * 0.10; 
     }
+
+    @Override
+    public String toString() {
+        return "\n Producto envasado \n fechaEnvasado = " + fechaEnvasado + ", \n nombre = " + nombre + ", \n pesoEnvase = " + pesoEnvase
+                + ", \n paisOrigen = " + paisOrigen + ", \n proveedor = " + proveedor.getNombre() + "";
+    }
 }

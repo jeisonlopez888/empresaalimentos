@@ -25,4 +25,10 @@ public class Refrigerado extends Producto implements Farmacia {
     
     
     }
+
+    @Override
+    public String toString() {
+        return "\n Producto refrigerado \n nombre = " + nombre + ", \n codigoAprobacion = " + codigoAprobacion
+                + ", \n temperaturaRefrigeracion = " + temperaturaRefrigeracion +  ", \n proveedor = " + proveedor.getNombre() + "";
+    }
 }
